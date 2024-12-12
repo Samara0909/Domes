@@ -76,14 +76,6 @@
                 android:text="Telefone" />
 
             <EditText
-                android:id="@+id/editTextNumber"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:ems="10"
-                android:inputType="number"
-                tools:text="CPF" />
-
-            <EditText
                 android:id="@+id/editTextNumber2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
