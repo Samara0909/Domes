@@ -5,6 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#e4e2dd"
     tools:context=".activities.CadastroActivity">
 
     <ScrollView
@@ -20,26 +21,25 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
-            <ImageView
-                android:id="@+id/Logo"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                tools:srcCompat="@tools:sample/avatars" />
-
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Cadastre-se" />
+                android:gravity="center_horizontal"
+                android:text="Cadastre-se"
+                android:textColor="#677856"
+                android:textSize="24sp"
+                android:textStyle="bold" />
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="wrap_content"
                 android:orientation="horizontal">
 
                 <ImageView
                     android:id="@+id/imageView4"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_margin="10dp"
                     android:layout_weight="1"
                     tools:srcCompat="@tools:sample/avatars" />
 
@@ -47,28 +47,45 @@
                     android:id="@+id/button3"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
                     android:layout_weight="1"
-                    android:text="Button" />
+                    android:backgroundTint="#7a9164"
+                    android:gravity="center"
+                    android:text="Foto de Perfil" />
             </LinearLayout>
 
             <EditText
-                android:id="@+id/editTextText3"
+                android:id="@+id/editTextText5"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="#b9c1b2"
                 android:ems="10"
                 android:inputType="text"
-                android:text="Nome " />
+                android:text="Nome" />
 
             <EditText
-                android:id="@+id/editTextTextEmailAddress7"
+                android:id="@+id/editTextTextEmailAddress2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="#b9c1b2"
                 android:ems="10"
                 android:inputType="textEmailAddress"
                 android:text="Email" />
 
             <EditText
-                android:id="@+id/editTextPhone2"
+                android:id="@+id/editTextNumber2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="#b9c1b2"
+                android:ems="10"
+                android:inputType="number"
+                android:text="CEP" />
+
+            <EditText
+                android:id="@+id/editTextPhone"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
@@ -76,25 +93,11 @@
                 android:text="Telefone" />
 
             <EditText
-                android:id="@+id/editTextNumber"
+                android:id="@+id/editTextText"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:ems="10"
-                android:inputType="number"
-                tools:text="CPF" />
-
-            <EditText
-                android:id="@+id/editTextNumber2"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:ems="10"
-                android:inputType="number"
-                android:text="CEP" />
-
-            <EditText
-                android:id="@+id/editTextText5"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="#b9c1b2"
                 android:ems="10"
                 android:inputType="text"
                 android:text="Rua" />
@@ -103,6 +106,8 @@
                 android:id="@+id/editTextText6"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="#b9c1b2"
                 android:ems="10"
                 android:inputType="text"
                 android:text="Bairro" />
@@ -111,6 +116,8 @@
                 android:id="@+id/editTextNumber3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="#b9c1b2"
                 android:ems="10"
                 android:inputType="number"
                 android:text="Número" />
@@ -119,43 +126,40 @@
                 android:id="@+id/editTextText7"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="#b9c1b2"
                 android:ems="10"
                 android:inputType="text"
                 android:text="Complemento" />
-
-            <TextView
-                android:id="@+id/textView9"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Senha:" />
 
             <EditText
                 android:id="@+id/editTextTextPassword4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="#b9c1b2"
                 android:ems="10"
                 android:hint="Crie uma senha"
                 android:inputType="textPassword" />
-
-            <TextView
-                android:id="@+id/textView10"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Confirmar senha:" />
 
             <EditText
                 android:id="@+id/editTextTextPassword5"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="#b9c1b2"
                 android:ems="10"
-                android:hint="Insira novamente a senha"
+                android:hint="Digite novamente a senha"
                 android:inputType="textPassword" />
 
             <Button
                 android:id="@+id/button4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Cadastrar" />
+                android:layout_margin="10dp"
+                android:backgroundTint="#7a9164"
+                android:text="Cadastrar"
+                android:textColorLink="#6D2222" />
 
         </LinearLayout>
     </ScrollView>

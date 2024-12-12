@@ -5,6 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#e4e2dd"
     tools:context=".activities.LoginActivity">
 
     <LinearLayout
@@ -62,6 +63,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:backgroundTint="#7a9164"
             android:text="Login" />
 
         <Button
@@ -69,6 +71,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:backgroundTint="#7a9164"
             android:text="Cadastrar" />
 
     </LinearLayout>
