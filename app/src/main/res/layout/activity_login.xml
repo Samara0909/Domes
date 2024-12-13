@@ -55,6 +55,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:drawableLeft="@drawable/baseline_key_24"
             android:ems="10"
             android:inputType="textPassword" />
 
@@ -64,7 +65,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:backgroundTint="#7a9164"
-            android:text="Login" />
+            android:text="Entrar" />
 
         <Button
             android:id="@+id/button2"
