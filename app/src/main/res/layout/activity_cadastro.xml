@@ -5,6 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#e4e2dd"
     tools:context=".activities.CadastroActivity">
 
     <ScrollView
@@ -20,16 +21,14 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
-            <ImageView
-                android:id="@+id/Logo"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                tools:srcCompat="@tools:sample/avatars" />
-
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Cadastre-se" />
+                android:layout_margin="10dp"
+                android:text="Cadastre-se"
+                android:textColor="#677856"
+                android:textSize="34sp"
+                android:textStyle="bold" />
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -40,6 +39,7 @@
                     android:id="@+id/imageView4"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
                     android:layout_weight="1"
                     tools:srcCompat="@tools:sample/avatars" />
 
@@ -47,14 +47,17 @@
                     android:id="@+id/button3"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
                     android:layout_weight="1"
-                    android:text="Button" />
+                    android:backgroundTint="#7a9164"
+                    android:text="Foto de Perfil" />
             </LinearLayout>
 
             <EditText
                 android:id="@+id/editTextText3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_margin="10dp"
                 android:ems="10"
                 android:inputType="text"
                 android:text="Nome " />
@@ -63,6 +66,7 @@
                 android:id="@+id/editTextTextEmailAddress7"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_margin="10dp"
                 android:ems="10"
                 android:inputType="textEmailAddress"
                 android:text="Email" />
@@ -71,14 +75,25 @@
                 android:id="@+id/editTextPhone2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_margin="10dp"
                 android:ems="10"
                 android:inputType="phone"
                 android:text="Telefone" />
 
             <EditText
+                android:id="@+id/editTextNumber"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:ems="10"
+                android:inputType="number"
+                tools:text="CPF" />
+
+            <EditText
                 android:id="@+id/editTextNumber2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_margin="10dp"
                 android:ems="10"
                 android:inputType="number"
                 android:text="CEP" />
@@ -87,6 +102,7 @@
                 android:id="@+id/editTextText5"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_margin="10dp"
                 android:ems="10"
                 android:inputType="text"
                 android:text="Rua" />
@@ -95,6 +111,7 @@
                 android:id="@+id/editTextText6"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_margin="10dp"
                 android:ems="10"
                 android:inputType="text"
                 android:text="Bairro" />
@@ -103,6 +120,7 @@
                 android:id="@+id/editTextNumber3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_margin="10dp"
                 android:ems="10"
                 android:inputType="number"
                 android:text="Número" />
@@ -111,6 +129,7 @@
                 android:id="@+id/editTextText7"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_margin="10dp"
                 android:ems="10"
                 android:inputType="text"
                 android:text="Complemento" />
@@ -119,12 +138,14 @@
                 android:id="@+id/textView9"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_margin="10dp"
                 android:text="Senha:" />
 
             <EditText
                 android:id="@+id/editTextTextPassword4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_margin="10dp"
                 android:ems="10"
                 android:hint="Crie uma senha"
                 android:inputType="textPassword" />
@@ -133,12 +154,14 @@
                 android:id="@+id/textView10"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_margin="10dp"
                 android:text="Confirmar senha:" />
 
             <EditText
                 android:id="@+id/editTextTextPassword5"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_margin="10dp"
                 android:ems="10"
                 android:hint="Insira novamente a senha"
                 android:inputType="textPassword" />
@@ -147,7 +170,13 @@
                 android:id="@+id/button4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:backgroundTint="#7a9164"
                 android:text="Cadastrar" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
 
         </LinearLayout>
     </ScrollView>
