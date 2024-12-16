@@ -1,4 +1,6 @@
 package soraia.samara.duda.victor.domes.activities;
 
-public class TrabalhadorActivity {
+import androidx.appcompat.app.AppCompatActivity;
+
+public class TrabalhadorActivity extends AppCompatActivity {
 }

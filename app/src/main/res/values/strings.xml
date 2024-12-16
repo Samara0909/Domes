@@ -8,4 +8,14 @@
         <item>casa</item>
         <item>apartamento</item>
     </string-array>
+
+    <string-array name="servicos">
+        <item>Selecione um serviço</item>
+        <item>limpeza</item>
+        <item>manutenção</item>
+        <item>pinuta</item>
+        <item>reparo</item>
+    </string-array>
+
+
 </resources>

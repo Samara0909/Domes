@@ -1,4 +1,6 @@
 package soraia.samara.duda.victor.domes.activities;
 
-public class CanceladoActivity {
+import androidx.appcompat.app.AppCompatActivity;
+
+public class CanceladoActivity extends AppCompatActivity {
 }
