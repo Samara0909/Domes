@@ -13,16 +13,10 @@
         android:theme="@style/Theme.Domes"
         tools:targetApi="31">
         <activity
-            android:name=".activities.AlteraCadastroActivity"
-            android:exported="false" />
-        <activity
             android:name=".activities.AvaliacoesActivity"
             android:exported="false" />
         <activity
             android:name=".activities.ProvedorServicoActivity"
-            android:exported="false" />
-        <activity
-            android:name=".activities.ServicoAtivity"
             android:exported="false" />
         <activity
             android:name=".activities.HomeActivity"
