@@ -12,7 +12,7 @@
         android:layout_marginStart="24dp"
         android:layout_marginTop="24dp"
         android:layout_marginEnd="24dp"
-        android:text="TextView"
+        android:text="Carlos almeida"
         app:layout_constraintEnd_toStartOf="@+id/ratingBar"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -38,7 +38,7 @@
         android:layout_marginEnd="24dp"
         android:layout_marginBottom="24dp"
         android:background="@drawable/bg_comentario_dentro"
-        android:text="TextView"
+        android:text="&quot;Achei aqui no app um ótimo eletricista, ele fez a rede elétrica da nova casa da minha Mãe. Contratei um pintor agora e gostei muito da facilidade do aplicativo."
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
