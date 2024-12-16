@@ -65,6 +65,13 @@
             android:layout_weight="1"
             android:text="Informações Adicionais:" />
 
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="41dp"
+            android:backgroundTint="#F44336"
+            android:text="Cancelar Pedido" />
+
     </LinearLayout>
 
     <ImageView
@@ -76,14 +83,5 @@
         app:layout_constraintStart_toStartOf="parent"
         app:srcCompat="@drawable/casa"
         tools:layout_editor_absoluteY="62dp" />
-
-    <Button
-        android:id="@+id/button"
-        android:layout_width="182dp"
-        android:layout_height="41dp"
-        android:backgroundTint="#F44336"
-        android:text="Cancelar Pedido"
-        tools:layout_editor_absoluteX="255dp"
-        tools:layout_editor_absoluteY="736dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
