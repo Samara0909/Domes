@@ -1,4 +1,6 @@
 package soraia.samara.duda.victor.domes.activities;
 
-public class ConfirmadoActivity {
+import androidx.appcompat.app.AppCompatActivity;
+
+public class ConfirmadoActivity extends AppCompatActivity {
 }

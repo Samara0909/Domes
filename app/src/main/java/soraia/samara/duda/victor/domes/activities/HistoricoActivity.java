@@ -1,4 +1,6 @@
 package soraia.samara.duda.victor.domes.activities;
 
-public class HistoricoActivity {
+import androidx.appcompat.app.AppCompatActivity;
+
+public class HistoricoActivity extends AppCompatActivity {
 }
