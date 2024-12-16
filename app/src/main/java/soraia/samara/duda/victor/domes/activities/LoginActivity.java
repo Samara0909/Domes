@@ -28,7 +28,7 @@ public class LoginActivity extends AppCompatActivity {
             return insets;
         });
 
-        Button btnEnviar = (Button) findViewById(R.id.btnEnviar);
+        Button btnEnviar = (Button) findViewById(R.id.btnAgendar);
 
         btnEnviar.setOnClickListener(new View.OnClickListener() {
             @Override
