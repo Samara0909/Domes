@@ -28,24 +28,25 @@ public class LoginActivity extends AppCompatActivity {
             return insets;
         });
 
-        Button btnEnviar = (Button) findViewById(R.id.btnAgendar);
+        Button btnEntrar = (Button) findViewById(R.id.btnEntrar);
 
-        btnEnviar.setOnClickListener(new View.OnClickListener() {
+        btnEntrar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 EditText etEmail = (EditText)findViewById(R.id.etEmail);
                 String email = etEmail.getText().toString();
-
-                EditText etPassword = (EditText)findViewById(R.id.etConfirmPassword);
-                String password = etPassword.getText().toString();
-
-                // Validação simples
-                if (email.equals("usuario@exemplo.com") && password.equals("123456")) {
-                    Intent intent = new Intent(LoginActivity.this, HomeActivity.class);
-                    startActivity(intent);
-                } else {
-                    Toast.makeText(LoginActivity.this, "Credenciais inválidas", Toast.LENGTH_SHORT).show();
+                if(email.isEmpty()) {
+                    Toast.makeText(LoginActivity.this, "Campo email vazio", Toast.LENGTH_LONG).show();
+                    return;
                 }
+
+                EditText etSenha = (EditText)findViewById(R.id.etSenha);
+                String senha = etSenha.getText().toString();
+                if(senha.isEmpty()) {
+                    Toast.makeText(LoginActivity.this, "Campo senha vazio", Toast.LENGTH_LONG).show();
+                    return;
+                }
+
 
             }
         });

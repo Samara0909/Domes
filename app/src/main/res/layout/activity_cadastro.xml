@@ -172,10 +172,6 @@
                 android:backgroundTint="#7a9164"
                 android:text="Cadastrar" />
 
-            <Space
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
-
         </LinearLayout>
     </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>

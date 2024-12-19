@@ -24,8 +24,9 @@
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/lista_de_avaliacoes"
-        android:layout_width="409dp"
-        android:layout_height="702dp"
+        android:id="@+id/rvAvaliacoes"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
         android:layout_marginTop="8dp"
         android:layout_marginBottom="8dp"
         app:layout_constraintBottom_toBottomOf="parent"

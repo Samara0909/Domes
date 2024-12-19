@@ -48,7 +48,7 @@
             android:text="Sobre: Atuo na área de limpeza há 5 anos, tenho disponibilidade de vários horários" />
 
         <Button
-            android:id="@+id/btnAgendar"
+            android:id="@+id/btnEntrar"
             android:layout_width="271dp"
             android:layout_height="2dp"
             android:layout_margin="32dp"
