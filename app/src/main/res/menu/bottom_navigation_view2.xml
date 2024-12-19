@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:icon="@android:drawable/ic_menu_preferences"
+        android:title="Geral" />
+    <item
+        android:icon="@drawable/baseline_key_24"
+        android:title="Senha" />
+    <item
+        android:icon="@android:drawable/ic_menu_agenda"
+        android:title="Informações" />
+    <item
+        android:icon="@android:drawable/ic_menu_camera"
+        android:title="Links Sociais" />
+    <item
+        android:icon="@android:drawable/ic_menu_set_as"
+        android:title="Conexões" />
+    <item
+        android:icon="@android:drawable/ic_menu_my_calendar"
+        android:title="Notificações" />
+</menu>
