@@ -4,4 +4,5 @@
     <color name="white">#FFFFFFFF</color>
     <color name="comentario_dentro">#7a9164</color>
     <item name="green_gradient" type="drawable">@drawable/bg_comentario_geral</item>
+    <color name="bege">#e4e2dd</color>
 </resources>
