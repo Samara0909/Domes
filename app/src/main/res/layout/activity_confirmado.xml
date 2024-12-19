@@ -44,7 +44,7 @@
         app:layout_constraintVertical_bias="0.722">
 
         <TextView
-            android:id="@+id/textView2"
+            android:id="@+id/txt_servico"
             android:layout_width="match_parent"
             android:layout_height="5dp"
             android:layout_weight="1"
@@ -52,21 +52,21 @@
             android:textSize="14sp" />
 
         <TextView
-            android:id="@+id/textView3"
+            android:id="@+id/txt_datahora"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="Data e hora:" />
 
         <TextView
-            android:id="@+id/textView42"
+            android:id="@+id/txt_infos"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="Informações Adicionais:" />
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/btn_Cancelar"
             android:layout_width="match_parent"
             android:layout_height="41dp"
             android:backgroundTint="#F44336"

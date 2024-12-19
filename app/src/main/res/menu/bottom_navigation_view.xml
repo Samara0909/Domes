@@ -6,10 +6,6 @@
         android:icon="@drawable/baseline_home_24"
         android:title="Home" />
     <item
-        android:id="@+id/btncontratacoes"
-        android:icon="?android:attr/actionModeFindDrawable"
-        android:title="Contratações" />
-    <item
         android:id="@+id/btnhistorico"
         android:icon="@drawable/baseline_email_24"
         android:title="Histórico" />

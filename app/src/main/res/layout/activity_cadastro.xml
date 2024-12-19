@@ -59,8 +59,8 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
                 android:ems="10"
-                android:inputType="text"
-                android:text="Nome " />
+                android:hint="Nome"
+                android:inputType="text" />
 
             <EditText
                 android:id="@+id/etEmail"
@@ -68,8 +68,8 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
                 android:ems="10"
-                android:inputType="textEmailAddress"
-                android:text="Email" />
+                android:hint="Email"
+                android:inputType="textEmailAddress" />
 
             <EditText
                 android:id="@+id/etTelefone"
@@ -77,8 +77,8 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
                 android:ems="10"
-                android:inputType="phone"
-                android:text="Telefone" />
+                android:hint="Telefone"
+                android:inputType="phone" />
 
             <EditText
                 android:id="@+id/etCpf"
@@ -86,8 +86,8 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
                 android:ems="10"
-                android:inputType="number"
-                tools:text="CPF" />
+                android:hint="CPF"
+                android:inputType="number" />
 
             <EditText
                 android:id="@+id/etCep"
@@ -95,8 +95,8 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
                 android:ems="10"
-                android:inputType="number"
-                android:text="CEP" />
+                android:hint="CEP"
+                android:inputType="number" />
 
             <EditText
                 android:id="@+id/etRua"
@@ -104,8 +104,8 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
                 android:ems="10"
-                android:inputType="text"
-                android:text="Rua" />
+                android:hint="Rua"
+                android:inputType="text" />
 
             <EditText
                 android:id="@+id/etBairro"
@@ -113,8 +113,8 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
                 android:ems="10"
-                android:inputType="text"
-                android:text="Bairro" />
+                android:hint="Bairro"
+                android:inputType="text" />
 
             <EditText
                 android:id="@+id/etNumero"
@@ -122,8 +122,8 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
                 android:ems="10"
-                android:inputType="number"
-                android:text="Número" />
+                android:hint="Número"
+                android:inputType="number" />
 
             <EditText
                 android:id="@+id/etComplemento"
@@ -131,8 +131,8 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
                 android:ems="10"
-                android:inputType="text"
-                android:text="Complemento" />
+                android:hint="Complemento"
+                android:inputType="text" />
 
             <TextView
                 android:id="@+id/textView9"

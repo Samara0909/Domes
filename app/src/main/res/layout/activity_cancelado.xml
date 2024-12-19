@@ -3,20 +3,11 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
-
-    <ImageView
-        android:id="@+id/imageView3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="52dp"
-        tools:srcCompat="@drawable/cas2" />
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
 
     <TextView
-        android:id="@+id/textView22"
+        android:id="@+id/txt_pergunta2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Deseja cancelar esse pedido?"
@@ -27,7 +18,7 @@
         tools:layout_editor_absoluteY="203dp" />
 
     <LinearLayout
-        android:id="@+id/linearLayout2"
+        android:id="@+id/blc_resumoservico"
         android:layout_width="239dp"
         android:layout_height="384dp"
         android:layout_marginStart="64dp"
@@ -43,7 +34,7 @@
         app:layout_constraintVertical_bias="0.722">
 
         <TextView
-            android:id="@+id/textView2"
+            android:id="@+id/txt_servico"
             android:layout_width="match_parent"
             android:layout_height="5dp"
             android:layout_weight="1"
@@ -51,26 +42,36 @@
             android:textSize="14sp" />
 
         <TextView
-            android:id="@+id/textView3"
+            android:id="@+id/txt_datahora"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="Data e hora:" />
 
         <TextView
-            android:id="@+id/textView42"
+            android:id="@+id/txt_infos"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="Informações Adicionais:" />
 
         <Button
-            android:id="@+id/button2"
+            android:id="@+id/btn_cancelarmesmo"
             android:layout_width="match_parent"
             android:layout_height="38dp"
-            android:backgroundTint="#677856"
+            android:backgroundTint="#F44336"
             android:text="Cancelar pedido" />
 
     </LinearLayout>
+
+    <ImageView
+        android:id="@+id/img_casa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/cas2"
+        tools:layout_editor_absoluteY="49dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -20,32 +20,32 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <TextView
-            android:id="@+id/textView2"
+            android:id="@+id/txt_servico"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Nome:" />
+            android:text="Nome: João Castro" />
 
         <TextView
-            android:id="@+id/textView3"
+            android:id="@+id/txt_datahora"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Celular:" />
+            android:text="Celular: (27) 994441526" />
 
         <TextView
-            android:id="@+id/textView42"
+            android:id="@+id/txt_infos"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Localização" />
+            android:text="Localização: Serra/ES" />
 
         <TextView
             android:id="@+id/textView41"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Sobre:" />
+            android:text="Sobre: Atuo na área de limpeza há 5 anos, tenho disponibilidade de vários horários" />
 
         <Button
             android:id="@+id/btnAgendar"

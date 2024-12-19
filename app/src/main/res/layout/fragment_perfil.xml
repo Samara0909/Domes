@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e4e2dd">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="224dp"
+        android:layout_height="43dp"
+        android:text="Seu Perfil"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="26dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/textView30"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Atuação: Faxina - Manutenção - Reforma"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="93dp"
+        tools:layout_editor_absoluteY="377dp" />
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Celular: (27)9999777888"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="93dp"
+        tools:layout_editor_absoluteY="308dp" />
+
+    <TextView
+        android:id="@+id/textView29"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email: mariaalvessouzaa@gmail.com"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="93dp"
+        tools:layout_editor_absoluteY="344dp" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MARIA ALVES SOUZA"
+        android:textStyle="bold|italic"
+        tools:layout_editor_absoluteX="137dp"
+        tools:layout_editor_absoluteY="274dp" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="34dp"
+        tools:layout_editor_absoluteY="126dp"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="127dp"
+        android:layout_height="40dp"
+        android:backgroundTint="#7a9164"
+        android:text="Editar Perfil"
+        tools:layout_editor_absoluteX="34dp"
+        tools:layout_editor_absoluteY="468dp" />
+
+    <TextView
+        android:id="@+id/textView31"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Conosco desde: Maio de 2018"
+        tools:layout_editor_absoluteX="34dp"
+        tools:layout_editor_absoluteY="99dp" />
+
+    <TextView
+        android:id="@+id/textView32"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Localização: Serra/ES"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="93dp"
+        tools:layout_editor_absoluteY="415dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
