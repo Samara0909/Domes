@@ -36,7 +36,7 @@ public class LoginActivity extends AppCompatActivity {
                 EditText etEmail = (EditText)findViewById(R.id.etEmail);
                 String email = etEmail.getText().toString();
 
-                EditText etPassword = (EditText)findViewById(R.id.etPassword);
+                EditText etPassword = (EditText)findViewById(R.id.etConfirmPassword);
                 String password = etPassword.getText().toString();
 
                 // Validação simples

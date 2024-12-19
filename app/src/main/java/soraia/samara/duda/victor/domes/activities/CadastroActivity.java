@@ -5,7 +5,6 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.Toast;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -60,7 +59,7 @@ public class CadastroActivity extends AppCompatActivity {
                 EditText etComplemento = (EditText)findViewById(R.id.etComplemento);
                 String complemento = etComplemento.getText().toString();
 
-                EditText etPassword = (EditText)findViewById(R.id.etPassword);
+                EditText etPassword = (EditText)findViewById(R.id.etConfirmPassword);
                 String password = etPassword.getText().toString();
 
                 Intent intent = new Intent(CadastroActivity.this, HomeActivity.class);
