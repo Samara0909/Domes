@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/btnhome"
+        android:icon="@drawable/baseline_home_24"
+        android:title="Home" />
+    <item
+        android:id="@+id/btncontratacoes"
+        android:icon="?android:attr/actionModeFindDrawable"
+        android:title="Contratações" />
+    <item
+        android:id="@+id/btnhistorico"
+        android:icon="@drawable/baseline_email_24"
+        android:title="Histórico" />
+    <item
+        android:id="@+id/btnperfil"
+        android:icon="@drawable/baseline_person_24"
+        android:title="Perfil" />
+</menu>

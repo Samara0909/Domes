@@ -1,6 +1,84 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="#e4e2dd">
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="106dp"
+        android:layout_height="85dp"
+        app:srcCompat="@drawable/baseline_person_24"
+        tools:layout_editor_absoluteX="237dp"
+        tools:layout_editor_absoluteY="40dp" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="197dp"
+        android:layout_height="38dp"
+        android:backgroundTint="#6D5E5E"
+        android:text="Upload de foto"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="194dp"
+        tools:layout_editor_absoluteY="148dp" />
+
+    <EditText
+        android:id="@+id/editTextText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Name"
+        tools:layout_editor_absoluteX="182dp"
+        tools:layout_editor_absoluteY="236dp" />
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:text="Email"
+        tools:layout_editor_absoluteX="181dp"
+        tools:layout_editor_absoluteY="322dp" />
+
+    <com.google.android.material.navigation.NavigationView
+        android:layout_width="179dp"
+        android:layout_height="637dp"
+        android:background="#869B7A"
+        app:menu="@menu/bottom_navigation_view2"
+        tools:layout_editor_absoluteX="-11dp"
+        tools:layout_editor_absoluteY="1dp" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="348dp"
+        android:layout_height="40dp"
+        android:backgroundTint="#7a9164"
+        android:text="Salvar"
+        tools:layout_editor_absoluteX="44dp"
+        tools:layout_editor_absoluteY="659dp" />
+
+    <EditText
+        android:id="@+id/editTextPhone2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="phone"
+        android:text="Celular"
+        tools:layout_editor_absoluteX="183dp"
+        tools:layout_editor_absoluteY="398dp" />
+
+    <EditText
+        android:id="@+id/editTextNumber2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:text="CEP"
+        tools:layout_editor_absoluteX="183dp"
+        tools:layout_editor_absoluteY="477dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

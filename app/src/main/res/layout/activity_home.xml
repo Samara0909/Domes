@@ -5,6 +5,67 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#e8e8e0"
     tools:context=".activities.HomeActivity">
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="231dp"
+        android:layout_height="148dp"
+        android:text="Descubra especialistas e agende serviços para todas as suas necessidades"
+        android:textColor="#7a9164"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="211dp" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/lacasa"
+        tools:layout_editor_absoluteX="267dp"
+        tools:layout_editor_absoluteY="220dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="258dp"
+        android:layout_height="60dp"
+        android:backgroundTint="#d3d7d2"
+        android:text="CONTRATE UM SERVIÇO"
+        android:textColor="#b5923f"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="440dp" />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="#9FA893"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:menu="@menu/bottom_navigation_view" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="120dp"
+        android:layout_height="57dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/logo2"
+        tools:layout_editor_absoluteY="40dp" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="439dp"
+        android:layout_height="63dp"
+        app:srcCompat="@drawable/navgreen"
+        tools:layout_editor_absoluteX="-14dp"
+        tools:layout_editor_absoluteY="-31dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
